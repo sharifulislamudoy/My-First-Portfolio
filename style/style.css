@@ -1,0 +1,29 @@
+.font{
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+*{
+    margin: none;
+    padding: none;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    gap: 50px;    
+}
+.nav-style{
+    text-decoration: none;
+    color: #474747
+}
