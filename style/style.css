@@ -1,29 +1,86 @@
-.font{
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+body{
+    font-family: "Open Sans", serif;
 }
 *{
     margin: none;
     padding: none;
+}
+.color{
+    color: #FD6E0A;
+}
+.hero{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/* Button Decoration */
+.btn{
+    width: 120px;
+    padding: 12px;
+    background-color: #FD6E0A;
+    border-radius: 6px;
+    border: none;
+}
+.btn-none{
+    text-decoration: none;
+    color: white;
+}
+
+/* .................. */
+
+.header{
+    background-image: url(../images/developer.png);
+    background-size: 73px;
+    background-repeat: no-repeat;
+    background-color: #FFF8F3;
 }
 .hero-container{
     display: flex;
     align-items: center;
     margin-left: 230px;
     margin-right: 230px;
-    margin-top: 30px;
     justify-content: space-between;
 }
 .nav{
     list-style: none;
     display: flex;
-    gap: 50px;    
+    gap: 50px;
+    align-items: center;   
 }
 .nav-style{
+    font-size: small;
     text-decoration: none;
     color: #474747
+}
+.personal{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.personal-getting{
+    color: #474747;
+    font-size: 30px;
+}
+.personal-name{
+    font-size: 45px;
+}
+.personal-description{
+    font-size: 10px;
+    color: #757575;
+}
+.personal-btn-gap{
+    display: flex;
+    gap: 20px;
+}
+.personal-btn-c{
+    width: 120px;
+    padding: 12px;
+    background: transparent;
+    border-radius: 6px;
+    border-color: #FD6E0A;
+}
+.personal-btn-a{
+    text-decoration: none;
+    color: #FD6E0A;
 }
